@@ -3,13 +3,14 @@
 pragma solidity >=0.4.22 <0.9.0;
 
 import "@openzeppelin/contracts-ethereum-package/contracts/access/Ownable.sol";
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract DeveloperFactory is OwnableUpgradeSafe {
     event NewDeveloper(uint devId, string name, string position, uint age);
     event SetAdminStatus(address account, bool adminStatus);
 
-    uint maxAge = 1000;
-    uint minAge = 5;
+    uint public maxAge = 100;
+    uint public minAge = 5;
     address public fund;
 
     struct Developer {
@@ -22,7 +23,6 @@ contract DeveloperFactory is OwnableUpgradeSafe {
     Developer[] public developers;
 
     mapping(address => bool) public admin;
-
 
     function initialize(address _fund) public initializer {
         OwnableUpgradeSafe.__Ownable_init();

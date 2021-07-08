@@ -8,6 +8,4 @@ module.exports = async function(deployer) {
   deployer.link(ConvertLib, MetaCoin);
   deployer.deploy(MetaCoin);
   deployer.deploy(DeveloperFactory);
-  // const instance = await deployProxy(DeveloperFactory, [42], { deployer });
-  // console.log('Deployed', instance.address);
 };

@@ -12,5 +12,9 @@ Compile và Migration testnet
 
 ```truffle migrate --network testnet```
 
+if every update:  ```truffle migrate --network testnet --reset```
 
-check: https://testnet.bscscan.com/address/0xA56Cb9B4242bAf56fd028b0eC8f24a9F4c0525e6
+
+Check: https://testnet.bscscan.com/address/0xA56Cb9B4242bAf56fd028b0eC8f24a9F4c0525e6
+
+Docs verify: https://docs.binance.org/smart-chain/developer/deploy/truffle-verify.html

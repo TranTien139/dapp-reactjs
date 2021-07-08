@@ -20,6 +20,7 @@
 
 let HDWalletProvider = require('truffle-hdwallet-provider');
 const mnemonic = '' // privete key
+const BSCSCANAPIKEY = ''
 const address = '0x0fab8C7549187f0eB1cedF5e20851419e0548cB0'
 // const infuraKey = "fj4jll3k.....";
 //
@@ -36,6 +37,13 @@ module.exports = {
    *
    * $ truffle test --network <network-name>
    */
+
+  plugins: [
+    'truffle-plugin-verify'
+  ],
+  api_keys: {
+    bscscan: BSCSCANAPIKEY
+  },
 
   networks: {
     // Useful for testing. The `development` name is special - truffle uses it by default

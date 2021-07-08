@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9129f91e-73d5-47ef-896f-8c7057c3c278" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/contracts/DeveloperFactory.sol" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/contracts/ConvertLib.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/ConvertLib.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/contracts/MetaCoin.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/MetaCoin.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/contracts/Migrations.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/Migrations.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contracts/ConvertLib.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/ConvertLib.sol" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contracts/MetaCoin.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/MetaCoin.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/DeveloperFactory.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/DeveloperFactory.sol" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/migrations/2_deploy_contracts.js" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/2_deploy_contracts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
@@ -55,11 +53,24 @@
       <workItem from="1625474893824" duration="6354000" />
       <workItem from="1625539354776" duration="3802000" />
       <workItem from="1625567425393" duration="2185000" />
-      <workItem from="1625626451071" duration="4139000" />
+      <workItem from="1625626451071" duration="5639000" />
+      <workItem from="1625712169648" duration="7175000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1625656308405</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625656308405</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>
